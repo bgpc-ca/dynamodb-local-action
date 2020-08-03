@@ -1,0 +1,6 @@
+# action.yml
+name: 'DynamoDB Local'
+description: 'Run AWS's DynamoDB Local Docker container'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
